@@ -36,3 +36,9 @@ for iter in range(10000):
     
 print("Output data after training")
 print(l1)
+
+
+newArray = np.array([1,1,1])
+l1New = nonlin(np.dot(newArray, syn0))
+print("New data for example:")
+print(l1_new)
